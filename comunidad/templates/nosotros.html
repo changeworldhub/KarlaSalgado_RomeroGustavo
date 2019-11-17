@@ -1,0 +1,106 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% block content %}
+<body id="page-top">
+   <!-- Sección nuestro objetivo -->
+   <section id="about" class="about-section text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8 mx-auto">
+           <h2 class="text-white mb-4">Nuestro Objetivo</h2>
+           <p class="text-white-50"> Nuestra objetivo es llegar a las personas y enseñarles las diferentes problematicas que generan el cambio
+               climatico ademas de hacer una comunidad que debata y apoye las diferentes medidas que se pueden tomar para evitar esta catastrofe.              
+             </p>
+         </div>
+       </div>
+       <img src="img/ipad.png" class="img-fluid" alt="">
+     </div>
+   </section>
+ 
+   <!-- Projects Section -->
+   <section id="projects" class="projects-section bg-light">
+     <div class="container">
+ 
+       <!-- Portafolio -->
+ 
+       <!-- Sección 1 -->
+       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+         <div class="col-lg-6">
+           <img class="img-fluid" src="{% static 'images/nosotros/1.jpg' %}" alt="">
+         </div>
+         <div class="col-lg-6">
+           <div class="bg-black text-center h-100 project">
+             <div class="d-flex h-100">
+               <div class="project-text w-100 my-auto text-center text-lg-left">
+                 <h4 class="text-white">¿Que hacemos?</h4>
+                 <p class="mb-0 text-white-50">Nuestro objetivo principal es generar conciencia, limpiando bosques y zonas costeras, reciclando e informando de habitos de respeto con nuestro entorno.</p>
+                 <hr class="d-none d-lg-block mb-0 ml-0">
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+       <!-- Sección 2 -->
+       <div class="row justify-content-center no-gutters">
+         <div class="col-lg-6">
+           <img class="img-fluid" src="{% static 'images/nosotros/2.jpg' %}" alt="">
+         </div>
+         <div class="col-lg-6 order-lg-first">
+           <div class="bg-black text-center h-100 project">
+             <div class="d-flex h-100">
+               <div class="project-text w-100 my-auto text-center text-lg-right">
+                 <h4 class="text-white">¿Como lo hacemos?</h4>
+                 <p class="mb-0 text-white-50">Contamos con una gran cantidad de voluntarios que conforman el corazón y motor de nuestra organización que se mueve en base al altruísmo, llevamos a cabo labores informativas y tomamos acción para defendee,cuidar y respetar la biodiversidad de nuestro planeta</p>
+                 <hr class="d-none d-lg-block mb-0 mr-0">
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+       <!-- Sección 3 -->
+       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+         <div class="col-lg-6">
+           <img class="img-fluid" src="{% static 'images/nosotros/3.jpg' %}" alt="">
+         </div>
+         <div class="col-lg-6">
+           <div class="bg-black text-center h-100 project">
+             <div class="d-flex h-100">
+               <div class="project-text w-100 my-auto text-center text-lg-left">
+                 <h4 class="text-white">¿Por qué ser voluntario? </h4>
+                 <p class="mb-0 text-white-50">Para crear conciencia de lo importante que es cambiar nuestros habitos, dentro de la propia vida de la persona, en casa y con los amigos. Aprender sobre herramientas y métodos que cada persona tiene al alcance para cuidar nuestro entorno. Además tienes un lugar de esparcimiento para venir a relajarte, 
+                     desconectar un rato de la vida agitada de la ciudad, integrando un grupo cargado de buena onda y con el interés en común de llevar una vida mejor a través de la reutilización y el reciclaje.
+                     <a href="Formulario.html">Unete aquí</a></p>
+                 <hr class="d-none d-lg-block mb-0 ml-0">
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+ 
+     </div>
+   </section>
+ 
+   <!-- Footer -->
+   <footer class="bg-black small text-center text-white-50">
+     <div class="container">
+       Copyright &copy; Your Website 2019
+     </div>
+   </footer>
+   
+    <!-- Bootstrap core JavaScript -->
+    <link href="{% static 'vendor/jquery/jquery.min.js' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}" rel="stylesheet">
+  
+    <!-- Plugin JavaScript -->
+    <link href="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}" rel="stylesheet">
+  
+    <!-- Custom scripts for this template -->
+    <link href="{% static 'js/grayscale.js' %}" rel="stylesheet">
+  
+ </body>
+
+
+{% endblock %}

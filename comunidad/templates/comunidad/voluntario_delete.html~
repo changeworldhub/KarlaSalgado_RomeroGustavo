@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<!-- Contenido del formulario-->
+<h2 class="text-white mb-5">¿Estas seguro de eliminar a {{object.nombre}} ?</h2>
+        <div style="border: thin; text-align: center;">
+            <form action="" method="POST">
+                {%csrf_token%}
+                <input type="submit" action="" value="Si, eliminar." />
+            </form>
+        </div>
+{% endblock %}

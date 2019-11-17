@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+{%load static%}
+{% block content %}
+<body>
+
+<!-- Mensaje de suscripcion-->
+	<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="tituloPrincipal">!MUCHAS GRACIAS¡</h1>
+        <h2 class="mx-auto text-center" id="secundarioSuscribe">Tu suscripción ha sido recibida con ÉXITO</h2>
+        <a href="index.html" class="btn btn-primary js-scroll-trigger">Vuelve a nuestro sitio</a>
+      </div>
+    </div>
+   </header>
+
+</body>
+
+{% endblock %}

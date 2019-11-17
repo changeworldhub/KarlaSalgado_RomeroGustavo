@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<!-- Contenido del formulario-->
+
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+      <h2 class="text-white mb-5">¿Estas seguro de eliminar a {{object.nombre}} ?</h2>
+            <form  method="post">
+                {%csrf_token%}
+                <<button type="submit" class="btn btn-danger">Sí, eliminar</button>
+                <a class="btn btn-primary mx-auto" href="{% url 'voluntarios' %}">Cancelar</a>
+            </form>
+      </div>
+    </div>
+{% endblock %}

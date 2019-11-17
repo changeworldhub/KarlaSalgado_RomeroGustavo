@@ -1,0 +1,25 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1 class="text-white mb-5">Comunidad</h1>
+
+
+    <h1 class="text-white mb-5">Lista de voluntarios</h1>
+
+    {% if voluntario_list %}
+    <ul>
+
+      {% for voluntario in voluntario_list %}
+      <li>
+        <a href="{{ voluntario.get_absolute_url }}">{{ voluntario.nombre }}</a> ({{voluntario.rut}})
+      </li>
+      {% endfor %}
+
+    </ul>
+
+    {% else %}
+      <p>No exiten voluntarios en nuestra comunidad.</p>
+    {% endif %}  
+    
+           
+{% endblock %}
