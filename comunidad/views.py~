@@ -44,12 +44,12 @@ class VoluntarioUpdate(UpdateView):
     model = Voluntario
     form_class = VoluntarioForm
     template_name = 'formulario.html'
-    succes_url = reverse_lazy('voluntarios')
+    success_url = reverse_lazy('voluntarios')
 
 
 class VoluntarioDelete(DeleteView):
     model = Voluntario
-    succes_url = reverse_lazy('index')
+    success_url = reverse_lazy('index')
  
 from django.views import generic
 class VoluntarioListView(generic.ListView):
