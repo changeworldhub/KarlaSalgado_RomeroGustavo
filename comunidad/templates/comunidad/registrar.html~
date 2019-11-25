@@ -1,0 +1,21 @@
+<!-- Contenido del formulario-->
+	<section id="signup" class="signup-section">
+    <div class="mx-auto text-center">
+      <div class="mx-auto text-center">
+        <div class="mx-auto text-center">
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5" >!Tú también puedes ayudar¡</h2>
+				<form method="post" name="datos"  class="mx-auto text-center">
+				{% csrf_token %}
+				<table  class="mx-auto text-center">
+					{{ form.as_table }}
+				</table>
+				<br>
+				<button type="submit" class="btn btn-primary mx-auto" class="text-white mb-5">Enviar</button>
+				<a href="{% url 'index' %}" class="btn btn-danger">Volver</a>
+
+				</form>
+		  </div>
+		</div>
+	</div>
+	</section>
