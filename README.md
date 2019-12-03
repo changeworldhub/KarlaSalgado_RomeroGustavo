@@ -5,6 +5,14 @@ This is a test project
 admin / user: gust.romero
         pass: violeta
 
+Segun lo solicitado se agrega la funcion de LOG- IN o inicio de sesion, junto la opción de registrarse como usuario. Esto mediante los nuevos enlaces de "Registrar" y "LOG IN".
+Además cabe resaltar que solo el usuario administrador tiene los privilegios para acceder a los registros y editarlos, mientras que un usuario normal carece de estas facultades.
+Por ultimo mencionar que el proyecto esta enlazado a una cuenta PythonAnywhere y se puede acceder desde el siguiente enlace:
+http://changeworld.pythonanywhere.com/comunidad/
+
+
+Fin de los comentarios.
+
 
 CRUD 
 
