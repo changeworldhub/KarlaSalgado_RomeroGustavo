@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Contenido del formulario-->
+	<section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5" >iniciar sesion</h2>
+				<form method="POST" name="datos"  class="mx-auto text-center">{% csrf_token %}
+						<input type="text" name="username" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Nombre de usuario" id="rut" autofocus>
+						<br>																			
+						<input type="password" name="password1" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Contraseña" id="nombre" autofocus>
+				<br>
+				<button type="submit" class="btn btn-primary mx-auto" class="text-white mb-5">Entrar</button>
+				</form>
+		  </div>
+		</div>
+	</div>
+	</section>
+
+{% endblock %}

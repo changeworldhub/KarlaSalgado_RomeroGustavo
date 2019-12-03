@@ -23,7 +23,7 @@
 						<br>	
 						<input type="text" name="last_name" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Apellido" id="rut" autofocus>
 						<br>																			
-						<input type="password" name="password1" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Contraseña" id="nombre" autofocus>
+						<input type="text" name="password1" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Contraseña" id="nombre" autofocus>
 				<br>
 				<button type="submit" class="btn btn-primary mx-auto" class="text-white mb-5">Registrar</button>
 				</form>
